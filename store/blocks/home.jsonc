@@ -6,10 +6,17 @@
       "flex-layout.row",
       "shelf",
       "slider-layout#home",
-      "responsive-layout"
+      "responsive-layout.desktop#desktop", "responsive-layout.mobile#mobile"
     ]
   },
-  
+  "rich-text":{
+    "props": {
+      "text": "**Hello, World!**", 
+      "textPosition": "RIGHT"
+     
+
+    }   
+  },
   "info-card": {
     "props": {
     "isFullModeStyle": false,
@@ -112,7 +119,7 @@
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
       "link": {
-        "url": "/small-appliances/coffee-makers",
+        "url": "/small-appliances/coffee-makers"
         
       } ,
       "alt": "Coffee Makers Collection",
