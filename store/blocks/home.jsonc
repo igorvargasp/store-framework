@@ -9,14 +9,7 @@
       "responsive-layout"
     ]
   },
-  "rich-text":{
-    "props": {
-      "text": "**Hello, World!**", 
-      "textPosition": "RIGHT"
-     
-
-    }   
-  },
+  
   "info-card": {
     "props": {
     "isFullModeStyle": false,
