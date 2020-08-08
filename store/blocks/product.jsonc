@@ -23,12 +23,13 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "stack-layout#brand"
+      "stack-layout#brand",
+      "filter-navigator.v3"
     ]
   },
   "flex-layout.col#right": {
     "children": [
-      "product-price", "product-name"," buy-button"
+      "product-price", "product-name"," buy-button","search-content"
     ],
     "verticalAlign": "center",
     "preventVerticalStretch": true
