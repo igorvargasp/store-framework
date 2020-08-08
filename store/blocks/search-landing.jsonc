@@ -1,0 +1,21 @@
+{
+    "store.custom#landing": { 
+      "blocks": [
+        "image",
+        "image#landingbanner", 
+        "search-result-layout.customQuery",
+        "Blue Top Retro Camera"
+
+      ]
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "maxItemsPerPage": 8,
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "skusFilter": "Blue Top Retro Camera"
+              }
+        }
+    }
+  }
